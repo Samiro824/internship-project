@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <!-- Add any necessary CSS or Bootstrap CDN links here -->
+</head>
+<body>
+    <h1>Registration</h1>
+    <!-- Add your registration form and fields here -->
+
+    <form action="/register" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+    
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- next -->
+    
+    <form action="/register" method="POST" class="form">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-control" required>
+        </div>
+    
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" class="form-control" required>
+        </div
+    
+    >
+    
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+
+</body>
+</html>
